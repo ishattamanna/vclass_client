@@ -1,14 +1,17 @@
 import React from "react";
 import MenuIcon from "../../../tools/icons/MenuIcon";
 import OutlineButton from "../../../tools/buttons/OutlineButton";
+import IconCircleButton from "../../../tools/buttons/IconCircleButton";
 
 const Header = ({ navItems }) => {
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
         <div className="dropdown"></div>
-        <label htmlFor="mainDrawer" className="btn btn-circle lg:hidden">
-          <MenuIcon className={"w-6 h-6"} />
+        <label htmlFor="mainDrawer" className="lg:hidden">
+          <IconCircleButton>
+            <MenuIcon />
+          </IconCircleButton>
         </label>
         <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
       </div>
