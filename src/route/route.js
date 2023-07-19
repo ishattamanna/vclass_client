@@ -14,22 +14,20 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-    
+
 
       },
       {
-        path:'/signin',
-        element:<SignIn></SignIn>
+        path: "/signin",
+        element: <SignIn></SignIn>
       },
       {
-        path:'/signup',
-        element:<SignUp></SignUp>
+        path: "/signup",
+        element: <SignUp></SignUp>
       },
-
-      }
 
     ]
-  },
+  }
 ]);
 
 export default router;
