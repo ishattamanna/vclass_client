@@ -4,6 +4,7 @@ import HomeStat from './HomeStat';
 
 const HomeBanner = () => {
     return (
+
         <div id='schrollHere' className="card lg:card-side bg-base-100 shadow-xl mb-5">
             <figure className="lg:w-[40%]"><img src={bannerImg} alt="bannerImg" /></figure>
             <div className="card-body lg:w-[60%] text-start">

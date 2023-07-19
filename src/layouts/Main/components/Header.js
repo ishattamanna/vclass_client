@@ -4,6 +4,7 @@ import OutlineButton from "../../../tools/buttons/OutlineButton";
 import IconCircleButton from "../../../tools/buttons/IconCircleButton";
 import { Link } from "react-router-dom";
 
+
 const Header = ({ navItems }) => {
   return (
     <div className="navbar bg-base-100">
@@ -20,7 +21,7 @@ const Header = ({ navItems }) => {
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
       </div>
       <div className="navbar-end">
-      <Link to={"/signup"}>
+        <Link to={"/signup"}>
       <OutlineButton>Get Started</OutlineButton>
       </Link>
       </div>
